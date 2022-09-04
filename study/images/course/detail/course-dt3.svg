@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2058" data-name="Rectangle 2058" width="14" height="14" transform="translate(98 474)" fill="#edc339" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_402" data-name="Mask Group 402" transform="translate(-98 -474)" clip-path="url(#clip-path)">
+    <g id="duhoc" transform="translate(98 476.056)">
+      <path id="Path_14062" data-name="Path 14062" d="M16.149,7.435,10.08,4.985a.877.877,0,0,0-.66,0L3.351,7.435a.881.881,0,0,0,0,1.634L9.42,11.521a.877.877,0,0,0,.66,0L16.149,9.07a.881.881,0,0,0,0-1.634Z" transform="translate(-2.8 -4.92)" fill="#edc339"/>
+      <path id="Path_14063" data-name="Path 14063" d="M17.751,12a.294.294,0,0,1-.294-.294V9.365a.294.294,0,1,1,.588,0v2.344A.294.294,0,0,1,17.751,12Z" transform="translate(-4.632 -5.439)" fill="#edc339"/>
+      <circle id="Ellipse_89" data-name="Ellipse 89" cx="0.881" cy="0.881" r="0.881" transform="translate(12.237 5.976)" fill="#edc339"/>
+      <path id="Path_14064" data-name="Path 14064" d="M13.89,11.644v1.911a.881.881,0,0,1-.53.808l-2.791,1.213a.876.876,0,0,1-.7,0L7.077,14.363a.881.881,0,0,1-.53-.808V11.644l3.123,1.262a1.465,1.465,0,0,0,1.1,0Z" transform="translate(-3.268 -5.761)" fill="#edc339"/>
+    </g>
+  </g>
+</svg>

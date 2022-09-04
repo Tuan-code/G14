@@ -1,0 +1,109 @@
+.course{
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+.course .course-list .course-item {
+  overflow: hidden;
+}
+.course .course-list .course-item .course-img{
+  height: 270px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.course .course-list .course-item .course-img img{
+  height: 100%;
+  transition: .4s;
+}
+.course .course-list .course-item:hover .course-img img{
+  transform: scale(1.1);
+}
+.course .course-list .course-item .title{
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #000000;
+}
+/* course detail */
+.course-detail{
+  padding: 80px 0;
+}
+.course-detail .course-detail-list .course-detail-item .course-detail-item__left{
+  width: 14px;
+  height: 14px;
+  margin-top: 3px;
+  margin-right: 5px;
+}
+.course-detail .course-detail-list .course-detail-item img{
+  width: 14px;
+  height: 14px;
+}
+.course-detail .course-detail-list .course-detail-item .course-detail-item__left img{
+  width: 14px;
+  height: 14px;
+}
+.course-detail .course-detail-list .course-detail-item .course-detail-item__right{
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+  color: #000000;
+}
+.course-detail .course-detail-list .course-detail-item .course-detail-item__right span{
+  color: #707070;
+  font-weight: normal;
+}
+.course-detail .course-detail-list .course-detail-item .course-detail-item__right.fee span{
+  color: #C21313;
+}
+.video{
+  position: relative;
+  height: 100%;
+}
+.video > img{
+  height: 100%;
+}
+.video .video-title{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.video .video-title .logo{
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.video .video-title .logo img{
+  width: 26px;
+  height: 8px;
+}
+.video .video-title .title{
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.video .play{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  opacity: .5;
+  position: absolute;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+}
+.video .play img{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+}
+.course-detail-right{
+  height: 100%;
+}

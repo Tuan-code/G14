@@ -1,0 +1,25 @@
+.tab .tab-list .tab-item{
+  background-color: #227AA1;
+  width: 171px;
+  height: 82px;
+  border-right: 1px solid #242424;
+}
+.tab .tab-list .tab-item .tab-content{
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  color: #000000;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tab .tab-list .tab-item.active{
+  border-bottom: 3px solid #EDC339;
+}
+.tab .tab-list .tab-item.active .tab-content{
+  background-color: unset;
+  border-bottom: 1;
+  font-weight: 600;
+  color: #FFFFFF;
+}

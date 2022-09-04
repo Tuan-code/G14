@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2056" data-name="Rectangle 2056" width="14" height="14" transform="translate(98 442)" fill="#edc339" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_401" data-name="Mask Group 401" transform="translate(-98 -442)" clip-path="url(#clip-path)">
+    <g id="download_10_" data-name="download (10)" transform="translate(98.013 442)">
+      <g id="Group_3763" data-name="Group 3763" transform="translate(0 0)">
+        <g id="Group_3762" data-name="Group 3762">
+          <path id="Path_14059" data-name="Path 14059" d="M6.41,5.965H8.4a2.357,2.357,0,0,1,.824-1.4h.007a2.2,2.2,0,0,0,1.247-.427c.054-.039.105-.082.155-.126a3.7,3.7,0,0,0,1.013-2.738.609.609,0,0,0-.584-.63.586.586,0,0,0-.63.585,2.51,2.51,0,0,1-.666,1.923A.935.935,0,0,1,9.5,3.3l-.009,0a1.373,1.373,0,0,0-.873-.374h-3a1.118,1.118,0,0,0-1,1.16A2.408,2.408,0,0,1,6.41,5.965Z" transform="translate(-0.589 -0.081)" fill="#edc339"/>
+          <ellipse id="Ellipse_88" data-name="Ellipse 88" cx="1.442" cy="1.413" rx="1.442" ry="1.413" transform="translate(5.081)" fill="#edc339"/>
+          <path id="Path_14060" data-name="Path 14060" d="M6.419,10.192c0-1.1-.472-1.559-1.128-1.559H3.772a1.665,1.665,0,0,0-.253-3.315,1.664,1.664,0,0,0-.251,3.315H1.748A1.367,1.367,0,0,0,.559,10.06v2.22h5.86Z" transform="translate(-0.083 -0.665)" fill="#edc339"/>
+          <path id="Path_14061" data-name="Path 14061" d="M9.477,6.984a1.678,1.678,0,0,0,1.448,1.648H9.4a1.343,1.343,0,0,0-1.158,1.428v2.22h5.815V10.193c0-1.083-.455-1.539-1.1-1.55-.009,0-.008-.009-.016-.009h-1.52a1.67,1.67,0,1,0-1.95-1.649Z" transform="translate(-1.044 -0.665)" fill="#edc339"/>
+          <rect id="Rectangle_2064" data-name="Rectangle 2064" width="13.974" height="1.432" transform="translate(0 12.568)" fill="#edc339"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

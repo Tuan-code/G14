@@ -1,0 +1,475 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/open-sans-v29-vietnamese-regular.eot");
+  src: url("../fonts/open-sans-v29-vietnamese-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v29-vietnamese-regular.woff") format("woff"), url("../fonts/open-sans-v29-vietnamese-regular.ttf") format("truetype"), url("../fonts/open-sans-v29-vietnamese-regular.svg#OpenSans") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/open-sans-v29-vietnamese-500.eot");
+  src: url("../fonts/open-sans-v29-vietnamese-500.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v29-vietnamese-500.woff") format("woff"), url("../fonts/open-sans-v29-vietnamese-500.ttf") format("truetype"), url("../fonts/open-sans-v29-vietnamese-500.svg#OpenSans") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/open-sans-v29-vietnamese-600.eot");
+  src: url("../fonts/open-sans-v29-vietnamese-600.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v29-vietnamese-600.woff") format("woff"), url("../fonts/open-sans-v29-vietnamese-600.ttf") format("truetype"), url("../fonts/open-sans-v29-vietnamese-600.svg#OpenSans") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/open-sans-v29-vietnamese-700.eot");
+  src: url("../fonts/open-sans-v29-vietnamese-700.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v29-vietnamese-700.woff") format("woff"), url("../fonts/open-sans-v29-vietnamese-700.ttf") format("truetype"), url("../fonts/open-sans-v29-vietnamese-700.svg#OpenSans") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/open-sans-v29-vietnamese-italic.eot");
+  src: url("../fonts/open-sans-v29-vietnamese-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v29-vietnamese-italic.woff") format("woff"), url("../fonts/open-sans-v29-vietnamese-italic.ttf") format("truetype"), url("../fonts/open-sans-v29-vietnamese-italic.svg#OpenSans") format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1;
+  font-family: "OpenSans", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #707070;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+.row{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+a{
+  text-decoration: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+}
+.btn{
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  background-color: #EDC339;
+  color: #000000;
+  width: max-content;
+  height: 44px;
+  border-radius: 10px;
+  padding: 11px 20px;
+}
+a:hover {
+  text-decoration: none;
+}
+p{
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: normal;
+  color: #707070;
+}
+.title-underline{
+  font-size: 30px;
+  line-height: 41px;
+  font-weight: 600;
+  color: #227AA1;
+
+}
+.title-underline .line{
+  width: 100px;
+  height: 3px;
+  background-color: #EDC339;
+  margin-top: 10px;
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next{
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+  background-color: #FFFFFF !important; 
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%);
+}
+.owl-nav .owl-prev i, 
+.owl-nav .owl-next i{
+  font-size: 18px !important;
+  color: #000000 !important;
+}
+.owl-nav .owl-prev{
+  left: 38px;
+}
+.owl-nav .owl-next{
+  right: 38px;
+}
+.owl-dot:focus {
+  outline: none;
+}
+a:hover {
+  color: #dc0808;
+}
+
+.owl-next:focus,
+.owl-prev:focus {
+  outline: none;
+}
+
+.owl-theme .owl-nav {
+  margin-top: 0;
+}
+
+.owl-carousel {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.owl-dots{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 20px;
+}
+.owl-dots .owl-dot span{
+  margin: 0 2.5px !important;
+}
+.owl-dots .owl-dot span{
+  border: 1px solid #EDC339;
+  background-color: unset !important;
+  width: 9px !important;
+  height: 9px !important;
+}
+.owl-dots .owl-dot.active span{
+  background-color: #EDC339 !important;
+  width: 14px !important;
+  height: 14px !important;
+}
+.logo{
+  width: 170px;
+  height: 39px;
+}
+
+
+@media (min-width: 1200.98px) and (max-width: 1399.98px) {
+  .container{
+    max-width: 1200px !important;
+  }
+}
+
+/* form */
+.register-advise .form .form-item {
+  position: relative;
+  padding-left: 0;
+}
+.register-advise .form .form-item label{
+  font-size: 14px;
+  line-height: 19px;
+  color: #707070;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 30px;
+}
+.register-advise .form .form-item label span{
+  color: #C21313;
+}
+.register-advise .form .form-item input{
+  height: 40px;
+  border-radius: 10px;
+  background-color: #F5F5F5;
+  border: none;
+}
+.register-advise .form .form-item .dropdown .btn{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F5F5F5;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: normal;
+  color: #707070;
+}
+.register-advise .form .form-item .dropdown .dropdown-menu{
+  width: 100%;
+}
+.register-advise .form .form-item .dropdown .dropdown-menu .dropdown-item{
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: normal;
+  color: #707070;
+}
+.register-advise .form .form-item .form-floating textarea{
+  height: 78px;
+  border-radius: 10px;
+  background-color: #F5F5F5;
+  border: none;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: normal;
+  color: #707070;
+  padding: 11px 20px;
+}
+.register-advise .form .form-item .form-floating label{
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: normal;
+  color: #707070;
+  left: 0;
+  padding: 11px 20px;
+}
+
+/* form-confirm */
+.register-advise .form-confirm{
+  margin-top: 20px;
+}
+.register-advise .form-confirm .checbox-square {
+  display: flex;
+  align-items: center;
+}
+.register-advise .form-confirm .checbox-square input{
+  width: 14px;
+  height: 14px;
+}
+.register-advise .form-confirm .checbox-square label{
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: normal;
+  color: #242424;
+}
+.register-advise .form-confirm .checbox-square label span{
+  color: #13ADF1;
+}
+
+/* handbook */
+.handbook{
+  padding: 80px 0;
+}
+.handbook .handbook-list .handbook-item{
+  height: 391px;
+  border-radius: 10px;
+  background-color: #F9F9F9;
+  overflow: hidden;
+}
+.handbook .handbook-list .handbook-item .image{
+  height: 240px;
+  border-radius: 10px 10px 0px 0px;
+}
+.handbook .handbook-list .handbook-item .image img{
+  height: 100%;
+}
+.handbook .handbook-list .handbook-item .content{
+  padding: 15px;
+}
+.handbook .handbook-list .handbook-item .content .date img{
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+.handbook .handbook-list .handbook-item .content .date span{
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: normal;
+  color: #707070;
+}
+.handbook .handbook-list .handbook-item .content .title{
+  max-height: 44px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #000000;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.handbook .handbook-list .handbook-item .content p{
+  max-height: 38px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* address page */
+.page-address{
+  padding: 15px 0;
+  background-color: #F9F9F9;
+}
+.page-address span{
+  color: #00000073;
+  font-size: 14px;
+  line-height: 22px;
+  margin-right: 8px;
+}
+.page-address span:last-child{
+  margin-right: 0;
+}
+.page-address span.active{
+  color: #000000;
+}
+
+/* pagination */
+.pagination span{
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: normal;
+  color: #000000D9;
+  margin: 0 8px;
+  cursor: pointer;
+}
+.pagination span.active{
+  color: #227AA1;
+}
+.pagination span.prev{
+  color: #D9D9D9;
+}

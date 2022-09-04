@@ -1,0 +1,11 @@
+.team{
+  padding: 80px 0;
+}
+.team .team-image{
+  height: 461px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.team .team-image img{
+  height: 100%;
+}
