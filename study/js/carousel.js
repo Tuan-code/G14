@@ -235,5 +235,201 @@ $(document).ready(function () {
       },
     },
   });
+  $('.scholarship-list.owl-carousel').owlCarousel({
+    items: 4,
+    loop: true,
+    margin: 30,
+    nav: true,
+    dots: false,
+    stagePadding: 15,
+    autoplay: false,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    responsiveClass: true,
+    responsiveRefreshRate: true,
+    navText: [
+      "<i class='fal fa-angle-left'></i>",
+      "<i class='fal fa-angle-right'></i>",
+    ],
+    responsive: {
+      0: {
+        items: 1,
+        nav: true,
+      },
+      768: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+      1200: {
+        items: 4,
+        nav: false,
+      },
+    },
+  });
+  $('.outstanding-schools-list.owl-carousel').owlCarousel({
+    items: 4,
+    loop: true,
+    margin: 30,
+    nav: true,
+    dots: false,
+    stagePadding: 15,
+    autoplay: false,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    responsiveClass: true,
+    responsiveRefreshRate: true,
+    navText: [
+      "<i class='fal fa-angle-left'></i>",
+      "<i class='fal fa-angle-right'></i>",
+    ],
+    responsive: {
+      0: {
+        items: 1,
+        nav: true,
+      },
+      768: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+      1200: {
+        items: 4,
+        nav: false,
+      },
+    },
+  });
+  $('.majors-list.owl-carousel').owlCarousel({
+    items: 4,
+    loop: true,
+    margin: 30,
+    nav: true,
+    dots: false,
+    stagePadding: 15,
+    autoplay: false,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    responsiveClass: true,
+    responsiveRefreshRate: true,
+    navText: [
+      "<i class='fal fa-angle-left'></i>",
+      "<i class='fal fa-angle-right'></i>",
+    ],
+    responsive: {
+      0: {
+        items: 1,
+        nav: true,
+      },
+      768: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+      1200: {
+        items: 4,
+        nav: true,
+      },
+    },
+  });
+  $('.school-top-list.owl-carousel').owlCarousel({
+    items: 4,
+    loop: true,
+    margin: 30,
+    nav: true,
+    dots: false,
+    stagePadding: 15,
+    autoplay: false,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    responsiveClass: true,
+    responsiveRefreshRate: true,
+    navText: [
+      "<i class='fal fa-angle-left'></i>",
+      "<i class='fal fa-angle-right'></i>",
+    ],
+    responsive: {
+      0: {
+        items: 1,
+        nav: true,
+      },
+      768: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+      1200: {
+        items: 4,
+        nav: false,
+      },
+    },
+  });
+  $('.program-detail-tab-list.owl-carousel').owlCarousel({
+    items: 4,
+    loop: false,
+    margin: 0,
+    nav: false,
+    dots: false,
+    stagePadding: 0,
+    autoplay: false,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    responsiveClass: true,
+    responsiveRefreshRate: true,
+    navText: [
+      "<i class='fal fa-angle-left'></i>",
+      "<i class='fal fa-angle-right'></i>",
+    ],
+    responsive: {
+      0: {
+        items: 2.1,
+      },
+      768: {
+        items: 2.5,
+      },
+      992: {
+        items: 4,
+      },
+      1200: {
+        items: 4,
+        nav: false,
+      },
+    },
+  });
+  $('.tab-list.owl-carousel').owlCarousel({
+    items: 4,
+    loop: false,
+    margin: 0,
+    nav: false,
+    dots: false,
+    stagePadding: 0,
+    autoplay: false,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    responsiveClass: true,
+    responsiveRefreshRate: true,
+    navText: [
+      "<i class='fal fa-angle-left'></i>",
+      "<i class='fal fa-angle-right'></i>",
+    ],
+    responsive: {
+      0: {
+        items: 2.5,
+      },
+      768: {
+        items: 4.5,
+      },
+      992: {
+        items: 5.5,
+      },
+      1200: {
+        items: 8,
+        nav: false,
+      },
+    },
+  });
 });
 

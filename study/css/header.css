@@ -184,6 +184,7 @@
 }
 .header .header-bottom .header-menu .menu-list .menu-item {
   margin-right: 30px; 
+  list-style: none !important;
 }
 .header .header-bottom .header-menu .menu-list .menu-item a{
   font-size: 14px;

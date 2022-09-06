@@ -452,3 +452,6 @@
   object-fit: cover;
   font-family: "object-fit: cover;";
 }
+.brand .customer-brand-list .owl-stage-outer .owl-stage{
+  padding: 10px 15px !important;
+}

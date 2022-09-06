@@ -138,7 +138,7 @@ html {
 body {
   font-size: 1.6rem;
   line-height: 1;
-  font-family: "OpenSans", sans-serif;
+  font-family: "OpenSans", Regular;
   margin: 0;
   padding: 0;
   color: #707070;
@@ -248,6 +248,14 @@ p{
 .owl-nav .owl-next{
   right: 38px;
 }
+@media (max-width: 991.98px){
+  .owl-nav .owl-prev{
+    left: 0;
+  }
+  .owl-nav .owl-next{
+    right: 0;
+  }
+}
 .owl-dot:focus {
   outline: none;
 }
@@ -295,7 +303,14 @@ a:hover {
   width: 170px;
   height: 39px;
 }
-
+.container{
+  padding: 0;
+}
+@media (max-width: 576px) {
+  .container{
+    padding: 0 7.5px;
+  }
+}
 
 @media (min-width: 1200.98px) and (max-width: 1399.98px) {
   .container{
@@ -315,7 +330,7 @@ a:hover {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 30px;
+  left: 20px;
 }
 .register-advise .form .form-item label span{
   color: #C21313;
@@ -325,6 +340,8 @@ a:hover {
   border-radius: 10px;
   background-color: #F5F5F5;
   border: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 .register-advise .form .form-item .dropdown .btn{
   height: 40px;
@@ -338,6 +355,14 @@ a:hover {
   font-weight: normal;
   color: #707070;
 }
+.register-advise .form .form-item .dropdown .btn .label{
+  font-size: 14px;
+  line-height: 19px;
+  color: #707070;
+}
+.register-advise .form .form-item .dropdown .btn .label span{
+  color: #C21313;
+}
 .register-advise .form .form-item .dropdown .dropdown-menu{
   width: 100%;
 }
@@ -348,7 +373,7 @@ a:hover {
   color: #707070;
 }
 .register-advise .form .form-item .form-floating textarea{
-  height: 78px;
+  height: 78px !important;
   border-radius: 10px;
   background-color: #F5F5F5;
   border: none;
@@ -472,4 +497,30 @@ a:hover {
 }
 .pagination span.prev{
   color: #D9D9D9;
+}
+.item-title{
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 600;
+  color: #000000;
+}
+.image{
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.image img{
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .register-advise .form-confirm .checbox-square {
+    display: flex;
+    align-items: flex-start;
+  }
+  .register-advise .form-confirm .checbox-square input{
+    margin-top: 4px;
+  }
 }
